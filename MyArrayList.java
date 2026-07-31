@@ -41,6 +41,10 @@ public class MyArrayList {
         System.out.println(numbers2.size()); // gives the length of the Array
         System.out.println(numbers2.contains(Integer.valueOf(30))); // checks if the array contains the given value or not. returns true or false.
         System.out.println(numbers2.isEmpty());// checks if the array is empty or not.
-        
+
+        // traversing an ArrayList 
+        numbers2.forEach(number -> {
+            System.out.println(number);
+        });
     }
 }
